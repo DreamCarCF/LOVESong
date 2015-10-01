@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Collect" representedClassName="Collect" syncable="YES">
+        <attribute name="img" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Entity" syncable="YES"/>
+    <entity name="Time" representedClassName="Time" syncable="YES">
+        <attribute name="applicationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categroyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="collectimg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="collectName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="downloads" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorites" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shares" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stars" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Time" positionX="-63" positionY="-18" width="128" height="225"/>
+        <element name="Collect" positionX="-63" positionY="72" width="128" height="75"/>
+        <element name="Entity" positionX="-54" positionY="81" width="128" height="45"/>
+    </elements>
+</model>
